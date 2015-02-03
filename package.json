@@ -21,10 +21,12 @@
     "grunt-shell": "0.6.x",
     "gm": "1.14.x",
     "mkdirp": "0.3.x",
-    "rimraf": "2.2.x"
+    "rimraf": "2.2.x",
+    "tuxharness": "git+ssh://git@github.com:danactive/tuxharness.git"
   },
   "main": "app.js",
   "scripts": {
+    "harness": "node ./node_modules/tuxharness/index.js ../../harness.js",
     "start": "node app.js",
     "test": "mocha test"
   },
