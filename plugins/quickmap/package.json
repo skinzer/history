@@ -1,0 +1,30 @@
+{
+  "name": "history-quickmap",
+  "version": "0.1.0",
+  "description": "Notes to quick map",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp --gulpfile ./node_modules/dev-mode/shared-gulpfile.js",
+    "test": "gulp --gulpfile ./node_modules/dev-mode/shared-gulpfile.js test"
+  },
+  "devDependencies": {
+    "dev-mode": "file:../dev-mode"
+  },
+  "keywords": [
+    "map",
+    "latitude",
+    "longitude"
+  ],
+  "author": {
+    "name": "danactive",
+    "url": "http://twitter.com/danactive"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danactive/history.git"
+  },
+  "engines": {
+    "npm": ">3"
+  }
+}
