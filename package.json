@@ -56,7 +56,7 @@
     "eslint-plugin-react": "^6.6.0",
     "expect.js": "^0.3.0",
     "gulp": "^3.9.0",
-    "gulp-concat": "^2.4.3",
+    "gulp-concat": "^2.6.1",
     "gulp-develop-server": "^0.5.2",
     "gulp-dust": "^3.0.0",
     "gulp-eslint": "^3.0.1",
