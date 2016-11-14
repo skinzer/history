@@ -54,7 +54,7 @@
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-react": "^6.7.0",
     "expect.js": "^0.3.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.4.3",
