@@ -39,7 +39,7 @@
     "mime-types": "^2.1.12",
     "mkdirp": "^0.5.0",
     "node-notifier": "^4.1.2",
-    "react": "^15.3.2",
+    "react": "^15.4.0",
     "react-dom": "^15.3.2",
     "rimraf": "^2.2.8",
     "tap-summary": "^3.0.1",
