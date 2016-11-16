@@ -40,7 +40,7 @@
     "mkdirp": "^0.5.0",
     "node-notifier": "^4.1.2",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2",
+    "react-dom": "^15.4.0",
     "rimraf": "^2.2.8",
     "tap-summary": "^3.0.1",
     "tuxharness": "^2.0.4",
