@@ -14,8 +14,6 @@ node_js:
   - "6"
   - "7"
 
-install:
-  - yarn
 before_script:
   - yarn lint
 scripts:
