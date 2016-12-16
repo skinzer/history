@@ -20,13 +20,11 @@ install:
   - yarn install
 before_script:
   - yarn lint
-  - ./ci.sh
 scripts:
   - yarn test:all
   - yarn test:react
-  - ./ci.sh
 after_success:
   - yarn ci-cover:coveralls
   - yarn ci-cover:prep-codeclimate
   - yarn ci-cover:codeclimate
-  - srcclr --debug scan
+  - DEBUG=1 curl -sSL https://download.sourceclear.com/ci.sh | bash 
