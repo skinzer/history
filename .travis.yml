@@ -18,13 +18,14 @@ before_install:
   - npm install -g yarn --cache-min 999999999
 install:
   - yarn install
+before_script:
+  - yarn lint
   - curl -JLO https://download.srcclr.com/srcclr-$(curl -sf https://download.srcclr.com/LATEST_VERSION)-linux.tgz
   - tar -xzf srcclr-*.tgz
   - rm srcclr-*.tgz
   - mv srcclr-* srcclr
   - export PATH=$PATH:$PWD/srcclr/bin/srcclr
-before_script:
-  - yarn lint
+  - which srcclr
 scripts:
   - yarn test:all
   - yarn test:react
