@@ -27,4 +27,5 @@ after_success:
   - yarn ci-cover:coveralls
   - yarn ci-cover:prep-codeclimate
   - yarn ci-cover:codeclimate
-  - DEBUG=1 curl -sSL https://download.sourceclear.com/ci.sh | bash 
+  - export DEBUG=1
+  - curl -sSL https://download.sourceclear.com/ci.sh | bash 
