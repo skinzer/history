@@ -22,4 +22,3 @@ after_success:
   - yarn ci-cover:prep-codeclimate
   - yarn ci-cover:codeclimate
   - rm -rf node_modules
-  - sudo curl -sSL https://download.sourceclear.com/ci.sh | bash
