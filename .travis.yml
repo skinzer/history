@@ -27,7 +27,7 @@ after_success:
   - yarn ci-cover:prep-codeclimate
   - yarn ci-cover:codeclimate
   - export DEBUG=1
-  - npm cache clean
-  - npm install -g n
-  - n stable
+  - sudo npm cache clean
+  - sudo npm install -g n
+  - sudo n stable
   - curl -sSL https://download.sourceclear.com/ci.sh | bash 
