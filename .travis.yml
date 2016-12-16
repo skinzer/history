@@ -28,4 +28,6 @@ after_success:
   - yarn ci-cover:codeclimate
   - export DEBUG=1
   - npm cache clean
+  - npm install -g n
+  - n stable
   - curl -sSL https://download.sourceclear.com/ci.sh | bash 
