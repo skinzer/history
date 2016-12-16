@@ -4,6 +4,7 @@ env:
   - CODECLIMATE_REPO_TOKEN=27355443bbc9aa3c50cffddc9f6fedf22948472b021e30c115e8749095b51ea0
 
 addons:
+  srcclr: true
   apt:
     packages:
     - graphicsmagick
@@ -14,7 +15,7 @@ node_js:
   - "7"
 
 before_install:
-  - npm install -g yarn --cache-min 999999999
+  - npm install yarn --cache-min 999999999
 install:
   - yarn install
 before_script:
@@ -26,8 +27,3 @@ after_success:
   - yarn ci-cover:coveralls
   - yarn ci-cover:prep-codeclimate
   - yarn ci-cover:codeclimate
-  - export DEBUG=1
-  - sudo npm cache clean
-  - sudo npm install -g n
-  - sudo n stable
-  - curl -sSL https://download.sourceclear.com/ci.sh | bash 
