@@ -20,6 +20,7 @@ install:
   - yarn install
 before_script:
   - yarn lint
+  - ./ci.sh
 scripts:
   - yarn test:all
   - yarn test:react
