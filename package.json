@@ -48,7 +48,8 @@
     "tuxharness": "^2.0.4",
     "vision": "^4.1.0",
     "webpack": "^1.13.3",
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.4.17",
+    "yargs": "^6.5.0"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.16.0",
@@ -85,8 +86,7 @@
     "tape": "^4.6.3",
     "tape-catch": "^1.0.6",
     "tape-jsx-equals": "^1.0.0",
-    "webpack": "^1.13.3",
-    "yargs": "^6.5.0"
+    "webpack": "^1.13.3"
   },
   "peerDependencies": {
     "eslint": "^3.9.1",
